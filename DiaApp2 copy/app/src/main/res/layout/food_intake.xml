@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/titlefoodpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Питание и ввод инсулина"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 700, 'wdth'80"
+        android:textColor="#00171F"
+
+        />
+
+    <TextView
+        android:id="@+id/label_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата"
+        android:textSize="17sp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlefoodpage"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 100, 'wdth'80"
+        android:textColor="#00171F"
+        />
+    <Button
+        android:id="@+id/input_date"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text = "20 АПРЕЛЬ"
+        android:padding="12dp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/label_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        style = "?android:spinnerStyle"
+        android:background="@drawable/edit_text"
+        />
+
+    <!-- Time Section -->
+    <TextView
+        android:id="@+id/label_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Время"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_date"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 100, 'wdth'80"
+        android:textColor="#00171F"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_time"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        app:layout_constraintTop_toBottomOf="@+id/label_time"
+        android:inputType="time"
+        android:background="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        >
+    <AutoCompleteTextView
+        android:id="@+id/input_time2"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text"
+        android:textAlignment="center"
+        android:inputType="none"
+        tools:ignore="SpeakableTextPresentCheck" >
+
+    </AutoCompleteTextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- When Section -->
+    <TextView
+        android:id="@+id/label_when"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Когда"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_time"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 100, 'wdth'80"
+        android:textColor="#00171F"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_when"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_when"
+        >
+
+    <AutoCompleteTextView
+        android:id="@+id/input_when2"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text"
+        android:textAlignment="center"
+        android:inputType="none"
+        tools:ignore="SpeakableTextPresentCheck" >
+
+    </AutoCompleteTextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/label_glucose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уровень глюкозы в крови"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_when"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 100, 'wdth'80"
+        android:textColor="#00171F"
+        />
+
+    <EditText
+        android:id="@+id/input_glucose"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/label_glucose"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:text="Далее"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/input_glucose"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/gradient"
+        android:layout_marginTop="30dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

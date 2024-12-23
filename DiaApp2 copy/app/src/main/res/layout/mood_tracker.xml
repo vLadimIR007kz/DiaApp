@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Выберите ваше состояние..."
+        android:textSize="24sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 700, 'wdth'80"
+        android:textColor="#00171F"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        />
+
+    <!-- Mood Options Section -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="50dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/button_super"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="onMoodSelected"
+                android:background="@drawable/exellent"
+                android:layout_marginStart="3dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отлично"
+                android:textAlignment="center"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:textColor="#00171F"/>
+        </LinearLayout>
+
+        <!-- "Good" Button -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/button_good"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="onMoodSelected"
+                android:background="@drawable/happy"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Хорошо"
+                android:textAlignment="center"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:textColor="#00171F"/>
+        </LinearLayout>
+
+
+        <!-- "Normal" Button -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/button_normal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="onMoodSelected"
+                android:background="@drawable/mid"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пойдет"
+                android:textAlignment="center"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:textColor="#00171F"/>
+        </LinearLayout>
+
+
+        <!-- "Bad" Button -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/button_bad"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="onMoodSelected"
+                android:background="@drawable/no"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Не очень"
+                android:textAlignment="center"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:textColor="#00171F"/>
+        </LinearLayout>
+
+
+        <!-- "Awful" Button -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/button_awful"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:onClick="onMoodSelected"
+                android:background="@drawable/nah"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Очень плохо"
+                android:textAlignment="center"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:textColor="#00171F"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Продолжить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 700, 'wdth'80"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

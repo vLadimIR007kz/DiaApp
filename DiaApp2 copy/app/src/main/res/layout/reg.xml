@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+
+        android:id="@+id/welcoming_text_page1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght'3000, 'wdth' 65"
+        android:text="Добро пожаловать!"
+        android:textSize="60px"
+        app:layout_constraintBottom_toTopOf="@+id/email_page1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="750dp"
+        android:src="@drawable/vector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="250dp"
+        android:src="@drawable/vector2"
+        app:layout_constraintBottom_toTopOf="@+id/welcoming_text_page1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="@font/roboto_flex"
+        android:text="Войти"
+        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email_page1"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="370dp"
+        android:background="@drawable/edit_text"
+        android:hint="Введите email"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcoming_text_page1" />
+
+    <EditText
+        android:id="@+id/password_page1"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/edit_text"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_page1" />
+
+    <Button
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 100, 'wdth' 100"
+        android:hint="Забыли пароль?"
+        app:layout_constraintBottom_toTopOf="@id/sign_in_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:text="Регистрация"
+        app:layout_constraintEnd_toEndOf="@id/sign_in_button"
+        app:layout_constraintStart_toStartOf="@id/sign_in_button"
+        app:layout_constraintTop_toBottomOf="@id/sign_in_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

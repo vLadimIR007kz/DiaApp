@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/myButton2"
+            android:layout_width="286dp"
+            android:layout_height="60dp"
+            android:background="@drawable/gradient"
+            android:fontFamily="@font/roboto_flex"
+            android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+            android:text="Продолжить"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group3"
+            app:layout_constraintVertical_bias="0.174" />
+
+        <TextView
+            android:id="@+id/condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="400dp"
+            android:fontFamily="@font/robotoflex"
+            android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+            android:text="Расскажите нам подробнее о вас"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.309" />
+
+        <LinearLayout
+        android:id = "@+id/group1"
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:background="@drawable/edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/condition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/type_diabetes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text ="Тип диабета"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart = "20dp"
+                    android:layout_marginTop="10dp">
+
+                </TextView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id = "@+id/input_type_diabetes"
+                    android:layout_width="165dp"
+                    android:layout_height="30dp"
+                    android:background="@android:color/white"
+                    app:layout_constraintTop_toBottomOf="@id/type_diabetes"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="10dp"
+                    style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+                    <AutoCompleteTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType = "none"
+                        >
+
+                    </AutoCompleteTextView>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <TextView
+                    android:id="@+id/type_therapy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text ="Тип терапии"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/input_type_diabetes"
+                    android:layout_marginStart = "20dp"
+                    android:layout_marginTop="10dp">
+
+                </TextView>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id = "@+id/input_type_therapy"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:background="@android:color/white"
+                app:layout_constraintTop_toBottomOf="@id/type_therapy"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="10dp"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType = "none"
+                >
+
+            </AutoCompleteTextView>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id = "@+id/group2"
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="@drawable/edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/group1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:id = "@+id/hyperglycamia"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text = "Гипергликемия"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+        />
+
+            <EditText
+                android:id="@+id/edit_hyperglycamia"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/white"
+
+                app:layout_constraintStart_toEndOf="@+id/hyperglycamia"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/high_sugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="56dp"
+                android:text="Высокий сахар"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/edit_high_sugar"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+
+                app:layout_constraintStart_toEndOf="@id/high_sugar"
+                app:layout_constraintTop_toBottomOf="@+id/edit_hyperglycamia">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/normal_sugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="56dp"
+                android:text="Нормальн. сахар"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/high_sugar" />
+
+            <EditText
+                android:id="@+id/edit_normal_sugar"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/white"
+
+                app:layout_constraintStart_toEndOf="@id/normal_sugar"
+                app:layout_constraintTop_toBottomOf="@+id/edit_high_sugar">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/low_sugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="44dp"
+                android:text="Низкий сахар"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/normal_sugar" />
+
+            <TextView
+                android:id="@+id/hypoglycemia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="28dp"
+                android:text="Гипогликемия"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/low_sugar" />
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="200dp"
+                android:background="@android:color/white"
+                app:layout_constraintStart_toEndOf="@+id/hypoglycemia"
+
+                app:layout_constraintTop_toTopOf="parent">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="156dp"
+                android:background="@android:color/white"
+                app:layout_constraintStart_toEndOf="@+id/low_sugar"
+
+                app:layout_constraintTop_toTopOf="parent">
+
+            </EditText>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/group3"
+            android:layout_width="294dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_text"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text = "Углеводный индекс"/>
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white" />.
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

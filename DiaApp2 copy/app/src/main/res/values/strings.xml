@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DiaApp</string>
+    <string name="select">Select item</string>
+    <string name="therapy">Here is your therapy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="motivational_phrase">Today motivational phrase</string>
+</resources>

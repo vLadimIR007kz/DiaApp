@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="171dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/check"
+        app:layout_constraintBottom_toTopOf="@id/we_care_page3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/we_care_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+        android:text="Мы заботимся о вас!"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <TextView
+        android:id = "@+id/tell_us_about_urself_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Расскажи нам о себе"
+        app:layout_constraintTop_toBottomOf="@+id/we_care_page3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_gender"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tell_us_about_urself_page3"
+        android:layout_marginTop="20dp"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/pol"
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:background="@drawable/edit_text"
+            android:hint ="Выберите пол"
+            android:textAlignment="center"
+            android:inputType="none">
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_date_of_birth"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_gender"
+        android:layout_marginTop="20dp"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/date_of_birth"
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:background="@drawable/edit_text"
+            android:hint ="Выберите дату рождения"
+            android:textAlignment="center"
+            android:inputType="none">
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="@font/roboto_flex"
+        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+        android:text="Продолжить"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

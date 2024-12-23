@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Главное"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+       />
+
+    <item
+        android:title="Гайды"
+        android:id="@+id/guide"
+        android:icon="@drawable/baseline_help_24"
+       />
+    <item
+        android:id="@+id/therapist"
+        android:title="Терапевт"
+        android:icon="@drawable/baseline_person_24"
+        />
+    <item
+        android:id="@+id/person"
+        android:title="Сообщество"
+        android:icon="@drawable/baseline_groups_24" />
+</menu>
