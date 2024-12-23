@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.DiaApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.DiaApp" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/purple_200</item>
