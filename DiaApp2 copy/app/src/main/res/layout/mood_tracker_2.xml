@@ -23,6 +23,7 @@
                 android:textColor="#00171F">
             </TextView>
             <ImageView
+                android:id = "@+id/mood"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:src = "@drawable/nah"
@@ -45,7 +46,7 @@
                 />
 
             <EditText
-                android:id="@+id/main_reason"
+                android:id="@+id/main_reason_mood_tracker"
                 android:layout_width="380dp"
                 android:layout_height="100dp"
                 android:background="@drawable/edit_text"
@@ -84,6 +85,7 @@
                     >
 
                     <Button
+                        android:id ="@+id/activity_mood_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -93,6 +95,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id ="@+id/activity_mood_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -102,6 +105,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id ="@+id/activity_mood_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -113,6 +117,7 @@
 
 
                     <Button
+                        android:id ="@+id/activity_mood_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -122,6 +127,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginTop="5dp"/>
                     <Button
+                        android:id ="@+id/activity_mood_5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -132,6 +138,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id ="@+id/activity_mood_6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -141,6 +148,7 @@
                         android:layout_marginTop="5dp"/>
 
                     <Button
+                        android:id ="@+id/activity_mood_7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -151,6 +159,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id ="@+id/activity_mood_8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -193,6 +202,7 @@
                     >
 
                     <Button
+                        android:id="@+id/people_mood1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -202,6 +212,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/people_mood2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -211,6 +222,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/people_mood3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -222,6 +234,7 @@
 
 
                     <Button
+                        android:id="@+id/people_mood4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -231,6 +244,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginTop="5dp"/>
                     <Button
+                        android:id="@+id/people_mood5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -241,6 +255,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/people_mood6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -250,6 +265,7 @@
                         android:layout_marginTop="5dp"/>
 
                     <Button
+                        android:id="@+id/people_mood7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -260,6 +276,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/people_mood8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -300,6 +317,7 @@
                     >
 
                     <Button
+                        android:id="@+id/places_mood1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -309,6 +327,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/places_mood2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -318,6 +337,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/places_mood3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -329,6 +349,7 @@
 
 
                     <Button
+                        android:id="@+id/places_mood4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -338,6 +359,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginTop="5dp"/>
                     <Button
+                        android:id="@+id/places_mood5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -348,6 +370,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/places_mood6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -357,6 +380,7 @@
                         android:layout_marginTop="5dp"/>
 
                     <Button
+                        android:id="@+id/places_mood7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -367,6 +391,7 @@
                         android:layout_marginRight="10dp"/>
 
                     <Button
+                        android:id="@+id/places_mood8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/gradient"
@@ -386,12 +411,13 @@
                 android:id="@+id/btn_done"
                 android:layout_width="380dp"
                 android:layout_height="60dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/gradient"
                 android:text="Done"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
                 />
         </LinearLayout>
     </ScrollView>

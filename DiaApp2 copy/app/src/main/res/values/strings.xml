@@ -4,4 +4,9 @@
     <string name="therapy">Here is your therapy</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="motivational_phrase">Today motivational phrase</string>
+    <string name="question_poll">Question</string>
+    <string name="answer_poll1">Option 1</string>
+    <string name="answer_poll2">Option 2</string>
+    <string name="answer_poll3">Option 3</string>
+    <string name="answer_poll4">Option 4</string>
 </resources>

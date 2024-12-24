@@ -14,7 +14,23 @@
         android:id="@+id/destination22"
         android:name="com.rwell.diaapp.destination2"
         android:label="guide_book"
-        tools:layout="@layout/guide_book" />
+        tools:layout="@layout/guide_book" >
+        <action
+            android:id="@+id/action_destination22_to_destination32"
+            app:destination="@id/destination32" />
+    </fragment>
+    <fragment
+        android:id="@+id/destination12"
+        android:name="com.rwell.diaapp.destination1"
+        android:label="destination1" >
+        <action
+            android:id="@+id/action_destination12_to_destination22"
+            app:destination="@id/destination22" />
+    </fragment>
+    <fragment
+        android:id="@+id/destination32"
+        android:name="com.rwell.diaapp.destination3"
+        android:label="destination3" />
 
 
 </navigation>

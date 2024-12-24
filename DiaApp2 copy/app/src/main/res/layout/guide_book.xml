@@ -12,6 +12,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/recycler_big_buttons"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 800, 'wdth'100"
+        android:textColor="#00171F"
+        android:textSize="20sp"
         />
     <ScrollView
         android:id="@+id/recycler_big_buttons"
@@ -27,6 +31,35 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Диабет"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 700, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="25sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button1"
+                    app:layout_constraintTop_toTopOf="@id/big_button1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="220dp"
+                    android:text="Диабет это состояние когда у человека блаблалблабла"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button1"
+                    app:layout_constraintTop_toTopOf="@id/big_button1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    />
+
                 <Button
                     android:id="@+id/big_button1"
                     android:layout_width="match_parent"
@@ -45,6 +78,34 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Диабет"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 700, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="25sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button2"
+                    app:layout_constraintTop_toTopOf="@id/big_button2"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="220dp"
+                    android:text="Диабет это состояние когда у человека блаблалблабла"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button2"
+                    app:layout_constraintTop_toTopOf="@id/big_button2"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    />
                 <Button
                     android:id="@+id/big_button2"
                     android:layout_width="match_parent"
@@ -63,6 +124,34 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Диабет"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 700, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="25sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button3"
+                    app:layout_constraintTop_toTopOf="@id/big_button3"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="220dp"
+                    android:text="Диабет это состояние когда у человека блаблалблабла"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button3"
+                    app:layout_constraintTop_toTopOf="@id/big_button3"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    />
                 <Button
                     android:id="@+id/big_button3"
                     android:layout_width="match_parent"
@@ -81,6 +170,34 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Диабет"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 700, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="25sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button4"
+                    app:layout_constraintTop_toTopOf="@id/big_button4"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="220dp"
+                    android:text="Диабет это состояние когда у человека блаблалблабла"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button4"
+                    app:layout_constraintTop_toTopOf="@id/big_button4"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    />
                 <Button
                     android:id="@+id/big_button4"
                     android:layout_width="match_parent"
@@ -99,6 +216,34 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Диабет"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 700, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="25sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button5"
+                    app:layout_constraintTop_toTopOf="@id/big_button5"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="220dp"
+                    android:text="Диабет это состояние когда у человека блаблалблабла"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button5"
+                    app:layout_constraintTop_toTopOf="@id/big_button5"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    />
                 <Button
                     android:id="@+id/big_button5"
                     android:layout_width="match_parent"
@@ -117,6 +262,34 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Диабет"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 700, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="25sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button6"
+                    app:layout_constraintTop_toTopOf="@id/big_button6"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="220dp"
+                    android:text="Диабет это состояние когда у человека блаблалблабла"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
+                    android:textColor="@color/white"
+                    android:elevation="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/big_button6"
+                    app:layout_constraintTop_toTopOf="@id/big_button6"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    />
                 <Button
                     android:id="@+id/big_button6"
                     android:layout_width="match_parent"
