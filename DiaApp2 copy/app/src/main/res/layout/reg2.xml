@@ -48,7 +48,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_gender"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:layout_width="270dp"
+        android:layout_width="340dp"
         android:layout_height="45dp"
         android:background="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +59,7 @@
 
         <AutoCompleteTextView
             android:id="@+id/pol"
-            android:layout_width="270dp"
+            android:layout_width="340dp"
             android:layout_height="45dp"
             android:background="@drawable/edit_text"
             android:hint ="Выберите пол"
@@ -72,7 +72,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_date_of_birth"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:layout_width="270dp"
+        android:layout_width="340dp"
         android:layout_height="45dp"
         android:background="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +83,7 @@
 
         <AutoCompleteTextView
             android:id="@+id/date_of_birth"
-            android:layout_width="270dp"
+            android:layout_width="340dp"
             android:layout_height="45dp"
             android:background="@drawable/edit_text"
             android:hint ="Выберите дату рождения"

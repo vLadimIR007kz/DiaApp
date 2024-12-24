@@ -1,89 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="171dp"
         android:layout_height="27dp"
         android:layout_marginBottom="100dp"
         android:background="@drawable/check"
-        app:layout_constraintBottom_toTopOf="@id/welcome_page4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+       android:layout_gravity="center"
+        />
 
     <TextView
         android:id="@+id/welcome_page4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="400dp"
         android:fontFamily="@font/robotoflex"
         android:fontVariationSettings="'wght' 3000, 'wdth' 100"
         android:text="Мы заботимся о вас!"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.724" />
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
 
     <TextView
         android:id = "@+id/tell_us_page4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text = "Расскажи нам о себе"
-        app:layout_constraintTop_toBottomOf="@+id/welcome_page4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"
         android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
         />
 
 
     <EditText
         android:id="@+id/input_weight"
-        android:layout_width="270dp"
+        android:layout_width="340dp"
         android:layout_height="45dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/edit_text"
         android:hint="Введите вес"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tell_us_page4" />
+        android:layout_gravity="center"
+         />
 
-    <EditText
-        android:id="@+id/input_height_page4"
-        android:layout_width="272dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edit_text"
-        android:hint="Введите рост"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/input_weight" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/physical_activity_page4"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:layout_width="270dp"
+        android:layout_width="340dp"
         android:layout_height="45dp"
         android:background="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/input_height_page4"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center">
 
         <AutoCompleteTextView
-            android:layout_width="270dp"
+            android:layout_width="340dp"
             android:layout_height="45dp"
             android:background="@drawable/edit_text"
             android:hint="Частота физической активности"
@@ -99,7 +75,8 @@
         android:id="@+id/myButton"
         android:layout_width="286dp"
         android:layout_height="60dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
         android:background="@drawable/gradient"
         android:fontFamily="@font/roboto_flex"
         android:fontVariationSettings="'wght' 3000, 'wdth' 100"
@@ -114,4 +91,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.656" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
