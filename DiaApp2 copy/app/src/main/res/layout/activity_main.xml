@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".destination1">
+    tools:context=".destination1"
+    android:background="#FFFFFF">
     <TextView
         android:id = "@+id/motivational_phrase"
         android:layout_width="wrap_content"
@@ -243,6 +244,7 @@
     </HorizontalScrollView>
 
     <ImageButton
+        android:id = "@+id/settings_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/dots"
