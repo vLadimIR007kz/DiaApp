@@ -30,14 +30,14 @@
             android:id = "@+id/group1"
             android:orientation="horizontal"
             android:layout_width="350dp"
-            android:layout_height="140dp"
+            android:layout_height="180dp"
             android:background="@drawable/edit_text"
             android:layout_marginTop="16dp"
             android:layout_gravity="center">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
                 <TextView
                     android:id="@+id/type_diabetes"
                     android:layout_width="wrap_content"
@@ -46,14 +46,18 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     android:layout_marginStart = "20dp"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth'100"
+                    android:textColor="#00171F">
 
                 </TextView>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id = "@+id/input_type_diabetes"
-                    android:layout_width="165dp"
-                    android:layout_height="30dp"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
                     android:background="@android:color/white"
                     app:layout_constraintTop_toBottomOf="@id/type_diabetes"
                     app:layout_constraintStart_toStartOf="parent"
@@ -79,13 +83,17 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/input_type_diabetes"
                     android:layout_marginStart = "20dp"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth'100"
+                    android:textColor="#00171F"
+                    android:textSize="18sp">
 
                 </TextView>
             <com.google.android.material.textfield.TextInputLayout
                 android:id = "@+id/input_type_therapy"
-                android:layout_width="165dp"
-                android:layout_height="30dp"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
                 android:background="@android:color/white"
                 app:layout_constraintTop_toBottomOf="@id/type_therapy"
                 app:layout_constraintStart_toStartOf="parent"
@@ -108,15 +116,15 @@
         android:id = "@+id/group2"
         android:orientation="vertical"
         android:layout_width="350dp"
-        android:layout_height="250dp"
+        android:layout_height="320dp"
         android:background="@drawable/edit_text"
         android:layout_marginTop="10dp"
         android:layout_gravity="center">
 
-        <!--Linear layout сделать(по вертикали и горизонтали)-->
+        <!--Linear layout сделать(по вертикали и горизонтали) и увеличить все в размерах-->
             <LinearLayout
                 android:layout_width="300dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:orientation="horizontal">
             <TextView
                 android:id = "@+id/hyperglycamia"
@@ -125,139 +133,172 @@
                 android:text = "Гипергликемия"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'100"
+                android:textColor="#00171F"
             />
 
                 <EditText
                     android:id="@+id/edit_hyperglycamia"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
                     android:layout_marginStart="68dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@android:color/white">
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    tools:ignore="contentDescription"
+                    >
 
                 </EditText>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
                 <TextView
                     android:id="@+id/high_sugar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
-                    android:text="Высокий сахар"/>
+                    android:text="Высокий сахар"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/robotoflex"
+                    android:fontVariationSettings="'wght' 200, 'wdth'100"
+                    android:textColor="#00171F"/>
 
                 <EditText
                     android:id="@+id/edit_high_sugar"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="68dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_gravity="center"
                     android:background="@android:color/white"
     >
 
                 </EditText>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
             <TextView
                 android:id="@+id/normal_sugar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="56dp"
+                android:layout_marginStart="20dp"
                 android:text="Нормальн. сахар"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@id/high_sugar" />
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'100"
+                android:textColor="#00171F"
+                />
 
             <EditText
                 android:id="@+id/edit_normal_sugar"
-                android:layout_width="40dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="60dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="53dp"
                 android:background="@android:color/white"
-
-                app:layout_constraintStart_toEndOf="@id/normal_sugar"
-                app:layout_constraintTop_toBottomOf="@+id/edit_high_sugar">
+                android:layout_gravity="center">
 
             </EditText>
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
             <TextView
                 android:id="@+id/low_sugar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:layout_marginTop="44dp"
+                android:layout_marginStart="20dp"
                 android:text="Низкий сахар"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@id/normal_sugar" />
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'100"
+                android:textColor="#00171F"/>
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="80dp"
+                    android:background="@android:color/white"
+                    android:layout_gravity="center">
+                </EditText>
 
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
             <TextView
                 android:id="@+id/hypoglycemia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="28dp"
+                android:layout_marginStart="20dp"
                 android:text="Гипогликемия"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/low_sugar" />
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'100"
+                android:textColor="#00171F"
+                />
 
             <EditText
-                android:layout_width="40dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginTop="200dp"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="75dp"
                 android:background="@android:color/white"
-                app:layout_constraintStart_toEndOf="@+id/hypoglycemia"
-
-                app:layout_constraintTop_toTopOf="parent">
+                android:layout_gravity="center">
 
             </EditText>
 
-            <EditText
-                android:layout_width="40dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginTop="156dp"
-                android:background="@android:color/white"
-                app:layout_constraintStart_toEndOf="@+id/low_sugar"
+            </LinearLayout>
 
-                app:layout_constraintTop_toTopOf="parent">
 
-            </EditText>
         </LinearLayout>
-    </LinearLayout>
 
         <LinearLayout
             android:id="@+id/group3"
-            android:layout_width="294dp"
-            android:layout_height="55dp"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
             android:layout_marginTop="12dp"
             android:background="@drawable/edit_text"
             android:orientation="horizontal"
-            android:layout_gravity="center" >
+            android:layout_gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text = "Углеводный индекс"/>
+                android:text = "Углеводный индекс"
+                android:textSize="18sp"
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 200, 'wdth'100"
+                android:textColor="#00171F"
+                android:layout_gravity="center"/>
 
             <EditText
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="5dp"
-                android:background="@color/white" />.
+                android:background="@color/white"
+                android:layout_gravity="center"/>.
 
         </LinearLayout>
         <Button
             android:id="@+id/myButton2"
-            android:layout_width="286dp"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
             android:layout_height="60dp"
             android:background="@drawable/gradient"
             android:fontFamily="@font/roboto_flex"
@@ -266,13 +307,8 @@
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/group3"
-            app:layout_constraintVertical_bias="0.174" />
-
+            android:layout_gravity="center"/>
+    </LinearLayout>
     </ScrollView>
 
 
