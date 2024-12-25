@@ -22,8 +22,9 @@
         android:text = "Добро пожаловать!"
         android:fontFamily="@font/robotoflex"
         android:fontVariationSettings="'wght' 3000, 'wdth' 100"
-        android:textSize="20dp"
+        android:textSize="25sp"
         android:layout_gravity="center"
+        android:textColor="#00171F"
 
         />
     <TextView
@@ -32,8 +33,11 @@
         android:layout_height="wrap_content"
         android:text = "Расскажи нам о себе"
         android:layout_marginTop="10dp"
-        android:textSize="20dp"
         android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"
         />
 
     <EditText
@@ -45,6 +49,10 @@
         android:hint="Введите ваше полное имя"
         android:textAlignment="center"
         android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"
         />
 
     <EditText
@@ -55,7 +63,11 @@
         android:background="@drawable/edit_text"
         android:hint="Введите email"
         android:textAlignment="center"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"/>
 
     <EditText
         android:id="@+id/create_password_page2"
@@ -65,7 +77,11 @@
         android:background="@drawable/edit_text"
         android:hint="Создайте пароль"
         android:textAlignment="center"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"/>
 
     <EditText
         android:id="@+id/password_check_page2"
@@ -75,7 +91,11 @@
         android:background="@drawable/edit_text"
         android:hint="Подтвердите пароль"
         android:textAlignment="center"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"/>
 
     <EditText
         android:id="@+id/phone_number"
@@ -85,7 +105,11 @@
         android:background="@drawable/edit_text"
         android:hint="Введите ваш номер телефона"
         android:textAlignment="center"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"/>
 
     <Button
         android:id="@+id/continue_page2"

@@ -9,20 +9,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
         android:text="Последний шаг!"
-        android:textSize="20dp"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 3000, 'wdth'100"
+        android:textColor="#00171F"
+        />
     <TextView
         android:id = "@+id/tell_us_page4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text = "Для того чтобы получить доступ к основному функционалу приложения, вам необходимо пройти небольшой тест состоящий из /// вопросов"
         android:layout_marginTop="30dp"
-        android:textSize="20dp"
         android:textAlignment="center"
         android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"
         />
     <Button
         android:id="@+id/button_registration_form5"
