@@ -22,6 +22,9 @@ navigationFragment = "2.9.0-alpha03"
 flexbox = "3.0.0"
 mpandroidchart = "v3.1.0"
 materialVersion = "1.9.0"
+preferenceV14 = "28.0.0"
+preference = "1.2.1"
+preferenceKtx = "1.2.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -52,6 +55,9 @@ androidx-navigation-fragment = { group = "androidx.navigation", name = "navigati
 flexbox = { group = "com.google.android.flexbox", name = "flexbox", version.ref = "flexbox" }
 mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
 google-material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
+preference-v14 = { group = "com.android.support", name = "preference-v14", version.ref = "preferenceV14" }
+androidx-preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
+androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

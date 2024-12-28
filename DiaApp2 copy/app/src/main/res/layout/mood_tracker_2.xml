@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <!--больше контраста добавить-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -20,12 +21,13 @@
                 android:layout_marginTop="50dp"
                 android:fontFamily="@font/robotoflex"
                 android:fontVariationSettings="'wght' 800, 'wdth' 100"
-                android:textColor="#00171F">
+                android:textColor="#00171F"
+                android:textSize="25sp">
             </TextView>
             <ImageView
                 android:id = "@+id/mood"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src = "@drawable/nah"
                 android:layout_gravity="center">
             </ImageView>
@@ -34,13 +36,13 @@
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Why do you feel that way"
-                android:textSize="20sp"
+                android:text="Расскажи почему"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:paddingBottom="16dp"
                 android:layout_marginTop="50dp"
                 android:fontFamily="@font/robotoflex"
-                android:fontVariationSettings="'wght' 800, 'wdth' 100"
+                android:fontVariationSettings="'wght' 200, 'wdth' 100"
                 android:textColor="#00171F"
                 android:layout_gravity="center"
                 />
@@ -88,30 +90,30 @@
                         android:id ="@+id/activity_mood_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
+                        android:background="@drawable/edit_text"
                         android:text="Отдыхал"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"/>
 
                     <Button
                         android:id ="@+id/activity_mood_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
+                        android:background="@drawable/edit_text"
                         android:text="Физическая активность"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"/>
 
                     <Button
                         android:id ="@+id/activity_mood_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
+                        android:background="@drawable/edit_text"
                         android:text="Работал"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:padding="10dp"/>
 
 
@@ -120,20 +122,18 @@
                         android:id ="@+id/activity_mood_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Учился"
+                        android:background="@drawable/edit_text"                        android:text="Учился"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"
                         android:layout_marginTop="5dp"/>
                     <Button
                         android:id ="@+id/activity_mood_5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Спал во время дня"
+                        android:background="@drawable/edit_text"                        android:text="Спал во время дня"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp"/>
 
@@ -141,18 +141,16 @@
                         android:id ="@+id/activity_mood_6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Sleeping"
+                        android:background="@drawable/edit_text"                        android:text="Sleeping"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginTop="5dp"/>
 
                     <Button
                         android:id ="@+id/activity_mood_7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Resting"
+                        android:background="@drawable/edit_text"                        android:text="Resting"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:layout_marginTop="5dp"
@@ -162,10 +160,9 @@
                         android:id ="@+id/activity_mood_8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Sleeping"
+                        android:background="@drawable/edit_text"                        android:text="Sleeping"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginTop="5dp"
                         />
 
@@ -205,30 +202,27 @@
                         android:id="@+id/people_mood1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Отдыхал"
+                        android:background="@drawable/edit_text"                        android:text="Семья"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"/>
 
                     <Button
                         android:id="@+id/people_mood2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Физическая активность"
+                        android:background="@drawable/edit_text"                        android:text="Одноклассники"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"/>
 
                     <Button
                         android:id="@+id/people_mood3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Работал"
+                        android:background="@drawable/edit_text"                        android:text="Друзья"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:padding="10dp"/>
 
 
@@ -237,20 +231,18 @@
                         android:id="@+id/people_mood4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Учился"
+                        android:background="@drawable/edit_text"                        android:text="Партнер"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"
                         android:layout_marginTop="5dp"/>
                     <Button
                         android:id="@+id/people_mood5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Спал во время дня"
+                        android:background="@drawable/edit_text"                        android:text="Знакомые"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp"/>
 
@@ -258,33 +250,11 @@
                         android:id="@+id/people_mood6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Sleeping"
+                        android:background="@drawable/edit_text"                        android:text="Остальные"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginTop="5dp"/>
 
-                    <Button
-                        android:id="@+id/people_mood7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Resting"
-                        android:textAllCaps="false"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="10dp"/>
-
-                    <Button
-                        android:id="@+id/people_mood8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Sleeping"
-                        android:textAllCaps="false"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="5dp"
-                        />
 
                 </com.google.android.flexbox.FlexboxLayout>
             </LinearLayout>
@@ -293,7 +263,7 @@
                 android:id="@+id/places"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Places"
+                android:text="Места"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/robotoflex"
@@ -320,31 +290,29 @@
                         android:id="@+id/places_mood1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Отдыхал"
+                        android:background="@drawable/edit_text"                        android:text="Дом"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"/>
 
                     <Button
                         android:id="@+id/places_mood2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Физическая активность"
+                        android:background="@drawable/edit_text"                        android:text="Школа"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginRight="10dp"/>
 
                     <Button
                         android:id="@+id/places_mood3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Работал"
+                        android:background="@drawable/edit_text"                        android:text="Гости"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
-                        android:padding="10dp"/>
+                        android:textColor="@color/black"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"/>
 
 
 
@@ -352,20 +320,16 @@
                         android:id="@+id/places_mood4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Учился"
+                        android:background="@drawable/edit_text"                        android:text="На улице"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginTop="5dp"/>
+                        android:textColor="@color/black"/>
                     <Button
                         android:id="@+id/places_mood5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Спал во время дня"
+                        android:background="@drawable/edit_text"                        android:text="Ресторан/кафе"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp"/>
 
@@ -373,33 +337,12 @@
                         android:id="@+id/places_mood6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Sleeping"
+                        android:background="@drawable/edit_text"                        android:text="Природа"
                         android:textAllCaps="false"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_marginTop="5dp"/>
 
-                    <Button
-                        android:id="@+id/places_mood7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Resting"
-                        android:textAllCaps="false"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="10dp"/>
 
-                    <Button
-                        android:id="@+id/places_mood8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/gradient"
-                        android:text="Sleeping"
-                        android:textAllCaps="false"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="5dp"
-                        />
 
                 </com.google.android.flexbox.FlexboxLayout>
 

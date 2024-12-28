@@ -9,4 +9,6 @@
     <string name="answer_poll2">Option 2</string>
     <string name="answer_poll3">Option 3</string>
     <string name="answer_poll4">Option 4</string>
+    <string name="profile_name">Amirkhan</string>
+    <string name="type_of_diabetes">Type 0</string>
 </resources>

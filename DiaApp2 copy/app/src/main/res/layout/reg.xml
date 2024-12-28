@@ -19,7 +19,8 @@
         android:textSize="24sp"
         android:fontFamily="@font/robotoflex"
         android:fontVariationSettings="'wght' 3000, 'wdth'100"
-        android:textColor="#00171F"/>
+        android:textColor="#00171F"
+        android:layout_marginBottom="10dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -45,7 +46,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <--!настроить
+
     <Button
         android:id="@+id/sign_in_button"
         android:layout_width="250dp"
@@ -93,11 +94,15 @@
         android:padding="12dp"
         android:textAlignment="center"
         android:textSize="16sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_page1" />
+        app:layout_constraintTop_toBottomOf="@id/email_page1"
+        />
 
     <Button
         android:id="@+id/forgot_password"
@@ -105,7 +110,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 100, 'wdth' 100"
+        android:fontVariationSettings="'wght' 300, 'wdth' 100"
         android:hint="Забыли пароль?"
         app:layout_constraintBottom_toTopOf="@id/sign_in_button"
         app:layout_constraintEnd_toEndOf="parent"
