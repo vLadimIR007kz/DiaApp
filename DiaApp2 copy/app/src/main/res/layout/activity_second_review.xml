@@ -28,7 +28,9 @@
             android:gravity="center"
             android:textColor="#555555"
             android:layout_marginBottom="32dp" />
-
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
         <SeekBar
             android:id="@+id/slider_feedback"

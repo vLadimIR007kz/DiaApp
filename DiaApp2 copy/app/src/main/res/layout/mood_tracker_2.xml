@@ -13,39 +13,35 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <ImageView
+                android:id = "@+id/mood"
+                android:layout_marginTop="50dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src = "@drawable/nah"
+                android:layout_gravity="center">
+            </ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ты чувствуешь себя:"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:fontFamily="@font/robotoflex"
-                android:fontVariationSettings="'wght' 800, 'wdth' 100"
-                android:textColor="#00171F"
-                android:textSize="25sp">
-            </TextView>
-            <ImageView
-                android:id = "@+id/mood"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src = "@drawable/nah"
-                android:layout_gravity="center">
-            </ImageView>
-
-            <TextView
-                android:id="@+id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Расскажи почему"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:paddingBottom="16dp"
-                android:layout_marginTop="50dp"
                 android:fontFamily="@font/robotoflex"
                 android:fontVariationSettings="'wght' 200, 'wdth' 100"
                 android:textColor="#00171F"
+                android:textSize="25sp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mood"
                 android:layout_gravity="center"
-                />
+                android:fontFamily="@font/robotoflex"
+                android:fontVariationSettings="'wght' 800, 'wdth' 100"
+                android:textColor="#00171F"
+                android:textSize="25sp"/>
+
 
             <EditText
                 android:id="@+id/main_reason_mood_tracker"
@@ -57,7 +53,8 @@
                 android:padding="8dp"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
             <TextView
                 android:id="@+id/activities"
                 android:layout_width="wrap_content"
@@ -136,35 +133,18 @@
                         android:textColor="@color/black"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp"/>
-
                     <Button
                         android:id ="@+id/activity_mood_6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/edit_text"                        android:text="Sleeping"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="5dp"/>
-
-                    <Button
-                        android:id ="@+id/activity_mood_7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/edit_text"                        android:text="Resting"
-                        android:textAllCaps="false"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="10dp"/>
-
-                    <Button
-                        android:id ="@+id/activity_mood_8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/edit_text"                        android:text="Sleeping"
+                        android:background="@drawable/edit_text"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
                         android:layout_marginTop="5dp"
-                        />
+                        android:layout_marginRight="10dp"
+                        android:text = "Гулял"/>
+
+
 
                 </com.google.android.flexbox.FlexboxLayout>
 
@@ -224,6 +204,7 @@
                         android:textAllCaps="false"
                         android:textColor="@color/black"
                         android:padding="10dp"/>
+
 
 
 
@@ -349,14 +330,13 @@
 
             </LinearLayout>
 
-            <!-- Кнопка Done -->
             <Button
                 android:id="@+id/btn_done"
                 android:layout_width="380dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/gradient"
-                android:text="Done"
+                android:text="Сделать запись"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:layout_gravity="center"

@@ -24,13 +24,16 @@
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <!--текст сместить вниз, убрать подсказки, а сзади на всю кнопку будет картинка какая нибудь-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -41,24 +44,11 @@
                     android:elevation="10dp"
                     android:textSize="25sp"
                     app:layout_constraintStart_toStartOf="@id/big_button1"
-                    app:layout_constraintTop_toTopOf="@id/big_button1"
+                    app:layout_constraintBottom_toBottomOf="@id/big_button1"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="30dp"
                     />
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="220dp"
-                    android:text="Диабет это состояние когда у человека блаблалблабла"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="@color/white"
-                    android:elevation="10dp"
-                    android:textSize="16sp"
-                    app:layout_constraintStart_toStartOf="@id/big_button1"
-                    app:layout_constraintTop_toTopOf="@id/big_button1"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="80dp"
-                    />
+
 
                 <Button
                     android:id="@+id/big_button1"
@@ -88,24 +78,12 @@
                     android:elevation="10dp"
                     android:textSize="25sp"
                     app:layout_constraintStart_toStartOf="@id/big_button2"
-                    app:layout_constraintTop_toTopOf="@id/big_button2"
+                    app:layout_constraintBottom_toBottomOf="@id/big_button2"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="30dp"
                     />
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="220dp"
-                    android:text="Диабет это состояние когда у человека блаблалблабла"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="@color/white"
-                    android:elevation="10dp"
-                    android:textSize="16sp"
-                    app:layout_constraintStart_toStartOf="@id/big_button2"
-                    app:layout_constraintTop_toTopOf="@id/big_button2"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="80dp"
-                    />
+
+
                 <Button
                     android:id="@+id/big_button2"
                     android:layout_width="match_parent"
@@ -134,24 +112,12 @@
                     android:elevation="10dp"
                     android:textSize="25sp"
                     app:layout_constraintStart_toStartOf="@id/big_button3"
-                    app:layout_constraintTop_toTopOf="@id/big_button3"
+                    app:layout_constraintBottom_toBottomOf="@id/big_button3"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="30dp"
                     />
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="220dp"
-                    android:text="Диабет это состояние когда у человека блаблалблабла"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="@color/white"
-                    android:elevation="10dp"
-                    android:textSize="16sp"
-                    app:layout_constraintStart_toStartOf="@id/big_button3"
-                    app:layout_constraintTop_toTopOf="@id/big_button3"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="80dp"
-                    />
+
+
                 <Button
                     android:id="@+id/big_button3"
                     android:layout_width="match_parent"
@@ -180,24 +146,12 @@
                     android:elevation="10dp"
                     android:textSize="25sp"
                     app:layout_constraintStart_toStartOf="@id/big_button4"
-                    app:layout_constraintTop_toTopOf="@id/big_button4"
+                    app:layout_constraintBottom_toBottomOf="@id/big_button4"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="30dp"
                     />
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="220dp"
-                    android:text="Диабет это состояние когда у человека блаблалблабла"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="@color/white"
-                    android:elevation="10dp"
-                    android:textSize="16sp"
-                    app:layout_constraintStart_toStartOf="@id/big_button4"
-                    app:layout_constraintTop_toTopOf="@id/big_button4"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="80dp"
-                    />
+
+
                 <Button
                     android:id="@+id/big_button4"
                     android:layout_width="match_parent"
@@ -226,23 +180,9 @@
                     android:elevation="10dp"
                     android:textSize="25sp"
                     app:layout_constraintStart_toStartOf="@id/big_button5"
-                    app:layout_constraintTop_toTopOf="@id/big_button5"
+                    app:layout_constraintBottom_toBottomOf="@id/big_button5"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="50dp"
-                    />
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="220dp"
-                    android:text="Диабет это состояние когда у человека блаблалблабла"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="@color/white"
-                    android:elevation="10dp"
-                    android:textSize="16sp"
-                    app:layout_constraintStart_toStartOf="@id/big_button5"
-                    app:layout_constraintTop_toTopOf="@id/big_button5"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="30dp"
                     />
                 <Button
                     android:id="@+id/big_button5"
@@ -261,7 +201,8 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp">
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -272,23 +213,9 @@
                     android:elevation="10dp"
                     android:textSize="25sp"
                     app:layout_constraintStart_toStartOf="@id/big_button6"
-                    app:layout_constraintTop_toTopOf="@id/big_button6"
+                    app:layout_constraintBottom_toBottomOf="@id/big_button6"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="50dp"
-                    />
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="220dp"
-                    android:text="Диабет это состояние когда у человека блаблалблабла"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="@color/white"
-                    android:elevation="10dp"
-                    android:textSize="16sp"
-                    app:layout_constraintStart_toStartOf="@id/big_button6"
-                    app:layout_constraintTop_toTopOf="@id/big_button6"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="30dp"
                     />
                 <Button
                     android:id="@+id/big_button6"

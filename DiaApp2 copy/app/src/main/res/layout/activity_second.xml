@@ -28,6 +28,10 @@
             android:lineSpacingExtra="4dp"
             android:textColor="#555555"
             android:layout_marginBottom="32dp" />
+        <!--вместе с терапией будет идти картинка-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
 
         <Button
