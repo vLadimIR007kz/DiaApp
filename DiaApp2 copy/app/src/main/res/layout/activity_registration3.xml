@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="171dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/check"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/welcome_page4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мы заботимся о вас!"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 3000, 'wdth'100"
+        android:textColor="#00171F"/>
+
+    <TextView
+        android:id = "@+id/tell_us_page4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Расскажи нам о себе"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"
+        />
+
+
+    <EditText
+        android:id="@+id/input_weight"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text"
+        android:hint="Введите вес"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/physical_activity_page4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center">
+
+        <AutoCompleteTextView
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:background="@drawable/edit_text"
+            android:hint="Частота физической активности"
+            android:inputType="none"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/robotoflex"
+            android:fontVariationSettings="'wght' 200, 'wdth'100"
+            android:textColor="#00171F">
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/gradient"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+        android:text="Продолжить"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
+
+</LinearLayout>

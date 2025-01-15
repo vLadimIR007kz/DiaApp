@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="171dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/check"
+        app:layout_constraintBottom_toTopOf="@id/we_care_page3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/we_care_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+        android:text="Мы заботимся о вас!"
+        android:textSize="20dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id = "@+id/tell_us_about_urself_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Расскажи нам о себе"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 200, 'wdth'100"
+        android:textColor="#00171F"
+        android:layout_gravity="center"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_gender"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/pol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text"
+            android:hint ="Выберите пол"
+            android:textAlignment="center"
+            android:inputType="none"
+            android:textSize="18sp"
+            android:fontFamily="@font/robotoflex"
+            android:fontVariationSettings="'wght' 200, 'wdth'100"
+            android:textColor="#00171F">
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_date_of_birth"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/date_of_birth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text"
+            android:hint ="Выберите дату рождения"
+            android:textAlignment="center"
+            android:inputType="none"
+            android:textSize="18sp"
+            android:fontFamily="@font/robotoflex"
+            android:fontVariationSettings="'wght' 200, 'wdth'100"
+            android:textColor="#00171F">
+
+        </AutoCompleteTextView>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="@font/robotoflex"
+        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+        android:text="Продолжить"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

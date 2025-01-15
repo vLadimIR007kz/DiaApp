@@ -3,8 +3,8 @@
     <style name="boldText">
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">#00171F</item>
-        <item name="android:fontFamily">@font/robotoflex</item>\
-        <item name="fontVariationSettings">'wght' 3000, 'wdth' 65</item>
+        <item name="android:fontFamily">@font/robotoflex_regular</item>
+        <item name="fontVariationSettings">"wght" 3000, "wdth" 65</item>
     </style>
 
     <style name="gfgGreenText">
