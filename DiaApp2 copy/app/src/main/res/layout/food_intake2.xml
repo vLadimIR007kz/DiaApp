@@ -16,8 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="50dp"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 700, 'wdth'100"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="#00171F"
         />
     <!-- тут надо по идее настроить как то так чтобы пользователь выбирал именно еду отсюда, тоесть малтипл чойс делал -->
@@ -42,8 +41,7 @@
         app:layout_constraintTop_toBottomOf="@id/recycler_carbohydrates"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 200, 'wdth'80"
+        android:fontFamily="@font/roboto_light"
         android:textColor="#00171F"
 
         />
@@ -58,8 +56,7 @@
         app:layout_constraintTop_toBottomOf="@id/or_separator"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 700, 'wdth'100"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="#00171F"
         />
     <EditText
@@ -88,8 +85,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_close_value"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 700, 'wdth'100"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="#00171F"
 
         />
@@ -120,8 +116,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_insulin_fast"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 700, 'wdth'100"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="#00171F"/>
     <EditText
         android:id="@+id/input_insulin_medium"

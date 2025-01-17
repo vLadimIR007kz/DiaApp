@@ -12,8 +12,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Выберите ваше состояние..."
         android:textSize="24sp"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 700, 'wdth'80"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="#00171F"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
@@ -50,8 +49,7 @@
                 android:layout_height="wrap_content"
                 android:text="Отлично"
                 android:textAlignment="center"
-                android:fontFamily="@font/robotoflex"
-                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:fontFamily="@font/roboto_light"
                 android:textColor="#00171F"/>
         </LinearLayout>
 
@@ -73,8 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Хорошо"
                 android:textAlignment="center"
-                android:fontFamily="@font/robotoflex"
-                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:fontFamily="@font/roboto_light"
                 android:textColor="#00171F"/>
         </LinearLayout>
 
@@ -96,8 +93,7 @@
                 android:layout_height="wrap_content"
                 android:text="Пойдет"
                 android:textAlignment="center"
-                android:fontFamily="@font/robotoflex"
-                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:fontFamily="@font/roboto_light"
                 android:textColor="#00171F"/>
         </LinearLayout>
 
@@ -119,8 +115,7 @@
                 android:layout_height="wrap_content"
                 android:text="Не очень"
                 android:textAlignment="center"
-                android:fontFamily="@font/robotoflex"
-                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:fontFamily="@font/roboto_light"
                 android:textColor="#00171F"/>
         </LinearLayout>
 
@@ -143,8 +138,7 @@
                 android:layout_height="wrap_content"
                 android:text="Очень плохо"
                 android:textAlignment="center"
-                android:fontFamily="@font/robotoflex"
-                android:fontVariationSettings="'wght' 200, 'wdth'80"
+                android:fontFamily="@font/roboto_light"
                 android:textColor="#00171F"/>
         </LinearLayout>
 
@@ -206,7 +200,7 @@
         android:background="@drawable/gradient"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="80dp"
-        android:fontFamily="@font/robotoflex"
+        android:fontFamily="@font/roboto_bold"
         android:fontVariationSettings="'wght' 700, 'wdth'80"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

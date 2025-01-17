@@ -7,19 +7,17 @@
     android:background="#FFFFFF">
     <!---tools:context=".destination1"-->
     <TextView
-        android:id = "@+id/motivational_phrase"
+        android:id="@+id/motivational_phrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/scroll_main_menu"
-        android:text = "@string/motivational_phrase"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 800, 'wdth'100"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/motivational_phrase"
         android:textColor="#00171F"
         android:textSize="20sp"
-        />
+        app:layout_constraintBottom_toTopOf="@id/scroll_main_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <HorizontalScrollView
         android:id = "@+id/scroll_main_menu"
@@ -43,17 +41,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp">
+
                 <TextView
                     android:id="@+id/main_menu_therapy_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text = "Узнай сегодняшнюю терапию"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Узнай сегодняшнюю терапию"
+                    android:textColor="#00171F"
                     app:layout_constraintEnd_toEndOf="parent"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="#00171F"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id = "@+id/therapybutton_mainmenu"
@@ -86,25 +84,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp">
+
                 <TextView
                     android:id="@+id/main_menu_foodintake_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text = "Сделайте запись о приеме пищи \nи вводе инсулина"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Сделайте запись о приеме пищи \nи вводе инсулина"
                     android:textAlignment="center"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
                     android:textColor="#00171F"
-                    />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text ="+"
                     android:textSize="30sp"
-                    android:fontVariationSettings="'wght' 500, 'wdth' 200"
                     android:textColor="@color/white"
                     app:layout_constraintEnd_toEndOf="@id/foodintakebutton_mainmenu"
                     app:layout_constraintBottom_toBottomOf="@id/foodintakebutton_mainmenu"
@@ -146,17 +142,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp">
+
                 <TextView
                     android:id="@+id/main_menu_feeling_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text = "Как вы себя чувствуете?"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Как вы себя чувствуете?"
+                    android:textColor="#00171F"
                     app:layout_constraintEnd_toEndOf="parent"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="#00171F"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -202,17 +198,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp">
+
                 <TextView
                     android:id="@+id/my_graphs_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text = "Мои графики"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Мои графики"
+                    android:textColor="#00171F"
                     app:layout_constraintEnd_toEndOf="parent"
-                    android:fontFamily="@font/robotoflex"
-                    android:fontVariationSettings="'wght' 200, 'wdth' 100"
-                    android:textColor="#00171F"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:layout_width="58dp"
@@ -265,5 +261,6 @@
         app:labelVisibilityMode="labeled"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
+
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

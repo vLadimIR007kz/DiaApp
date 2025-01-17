@@ -22,8 +22,8 @@
         android:id="@+id/we_care_page3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/robotoflex"
-        android:fontVariationSettings="'wght' 3000, 'wdth' 100"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#00171F"
         android:text="Мы заботимся о вас!"
         android:textSize="20dp"
         android:layout_gravity="center" />
@@ -32,10 +32,10 @@
         android:id = "@+id/tell_us_about_urself_page3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text = "Расскажи нам о себе"
+        android:text = "Расскажите нам о себе"
         android:layout_marginTop="10dp"
         android:textSize="18sp"
-        android:fontFamily="@font/robotoflex"
+        android:fontFamily="@font/roboto_light"
         android:fontVariationSettings="'wght' 200, 'wdth'100"
         android:textColor="#00171F"
         android:layout_gravity="center"
@@ -62,7 +62,7 @@
             android:textAlignment="center"
             android:inputType="none"
             android:textSize="18sp"
-            android:fontFamily="@font/robotoflex"
+            android:fontFamily="@font/roboto_light"
             android:fontVariationSettings="'wght' 200, 'wdth'100"
             android:textColor="#00171F">
 
@@ -88,7 +88,7 @@
             android:textAlignment="center"
             android:inputType="none"
             android:textSize="18sp"
-            android:fontFamily="@font/robotoflex"
+            android:fontFamily="@font/roboto_light"
             android:fontVariationSettings="'wght' 200, 'wdth'100"
             android:textColor="#00171F">
 
@@ -103,7 +103,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/gradient"
-        android:fontFamily="@font/robotoflex"
+        android:fontFamily="@font/roboto_bold"
         android:fontVariationSettings="'wght' 3000, 'wdth' 100"
         android:text="Продолжить"
         android:textAllCaps="false"

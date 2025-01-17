@@ -24,7 +24,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:textSize="24sp"
-        android:fontFamily="@font/robotoflex"
+        android:fontFamily="@font/roboto_bold"
         android:fontVariationSettings="'wght' 3000, 'wdth'100"
         android:textColor="#00171F"/>
 
@@ -36,7 +36,7 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:textSize="18sp"
-        android:fontFamily="@font/robotoflex"
+        android:fontFamily="@font/roboto_light"
         android:fontVariationSettings="'wght' 200, 'wdth'100"
         android:textColor="#00171F"
         />
@@ -52,7 +52,7 @@
         android:textAlignment="center"
         android:layout_gravity="center"
         android:textSize="18sp"
-        android:fontFamily="@font/robotoflex"
+        android:fontFamily="@font/roboto_light"
         android:fontVariationSettings="'wght' 200, 'wdth'100"
         android:textColor="#00171F"
         />
@@ -75,7 +75,7 @@
             android:inputType="none"
             android:textAlignment="center"
             android:textSize="18sp"
-            android:fontFamily="@font/robotoflex"
+            android:fontFamily="@font/roboto_light"
             android:fontVariationSettings="'wght' 200, 'wdth'100"
             android:textColor="#00171F">
 
@@ -91,7 +91,7 @@
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:background="@drawable/gradient"
-        android:fontFamily="@font/robotoflex"
+        android:fontFamily="@font/roboto_bold"
         android:fontVariationSettings="'wght' 3000, 'wdth' 100"
         android:text="Продолжить"
         android:textAllCaps="false"
