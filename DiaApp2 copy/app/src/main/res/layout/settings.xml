@@ -6,9 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -21,7 +23,8 @@
             android:text="Настройки"
             android:layout_centerInParent="true"
             android:textColor="@color/black"
-            android:textSize="18sp"/>
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_bold"/>
     </RelativeLayout>
     <ScrollView
         android:layout_width="match_parent"
@@ -44,7 +47,9 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="@string/profile_name"
-                android:textSize="22sp"/>
+                android:textSize="22sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#00171F"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -53,7 +58,7 @@
                 android:layout_gravity="center" />
             <androidx.appcompat.widget.Toolbar
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:paddingStart="30dp"
                 android:paddingEnd="30dp"
@@ -82,8 +87,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="sfdsfds"/>
+                        android:text="Регион"
+                        android:fontFamily="@font/roboto_light"
+                        android:layout_gravity="center"/>
                 </LinearLayout>
+
             </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -105,7 +113,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="sfdsfds"/>
+                            android:text="Язык"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_light"/>
                     </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -128,7 +138,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="sfdsfds"/>
+                        android:text="Вкл/выкл темную тему"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_light"/>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="end"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -151,7 +168,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="sfdsfds"/>
+                        android:text="Данные пользователя"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_light"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -175,8 +194,40 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="sfdsfds"/>
+                        android:text="Единицы измерения"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_light"/>
                 </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:padding="15dp"
+                android:background="@drawable/edit_text">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/edit_text"
+                        android:padding="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Единицы измерения"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_light"/>
+                </LinearLayout>
+
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

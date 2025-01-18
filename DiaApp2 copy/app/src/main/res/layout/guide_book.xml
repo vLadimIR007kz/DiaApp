@@ -14,7 +14,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/recycler_big_buttons"
         android:fontFamily="@font/roboto_bold"
-        android:fontVariationSettings="'wght' 800, 'wdth'100"
         android:textColor="#00171F"
         android:textSize="20sp"
         />
@@ -24,7 +23,8 @@
         android:layout_height="541dp"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp">
 
         <!--текст сместить вниз, убрать подсказки, а сзади на всю кнопку будет картинка какая нибудь-->
         <LinearLayout

@@ -16,7 +16,8 @@
         app:layout_constraintBottom_toTopOf="@id/we_care_page3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
 
     <TextView
         android:id="@+id/we_care_page3"
