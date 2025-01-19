@@ -4,9 +4,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:background="#FFFFFF">
-
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="14dp"
+                    android:src="@drawable/baseline_arrow_back_24"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сегодняшнее занятие"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/roboto_bold"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
         <TextView
             android:id="@+id/what_you_can_do_title"
             android:layout_width="wrap_content"
@@ -42,5 +65,6 @@
             android:background="@drawable/ellipse_button"
             android:layout_marginTop="20dp"
            />
+        </LinearLayout>
 
 </LinearLayout>
